@@ -3,7 +3,6 @@ import './Hero.css';
 const Hero = () => {
   return (
     <section className="hero section">
-      {/* Background elements */}
       <div className="bg-glow bg-glow-blue hero-glow-1"></div>
       <div className="bg-glow bg-glow-purple hero-glow-2"></div>
       
@@ -34,7 +33,6 @@ const Hero = () => {
         </div>
         
         <div className="hero-visual animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          {/* Abstract visual representation of a dashboard/app */}
           <div className="glass-card hero-dashboard">
             <div className="dash-header">
               <span className="dot dot-close"></span>

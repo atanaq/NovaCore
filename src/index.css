@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap');
 
 :root {
-  /* Color Palette - Premium Dark Theme */
   --bg-primary: #030305;
   --bg-secondary: #0a0a0f;
   --bg-tertiary: #12121c;
@@ -18,11 +17,9 @@
   --border-color: rgba(255, 255, 255, 0.08);
   --border-glow: rgba(255, 255, 255, 0.15);
   
-  /* Typography */
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
   --font-heading: 'Outfit', var(--font-body);
   
-  /* Spacing & Layout */
   --max-width: 1280px;
   --header-height: 80px;
   --section-padding: 120px;
@@ -71,7 +68,6 @@ ul {
   list-style: none;
 }
 
-/* Glassmorphism Utilities */
 .glass {
   background: rgba(18, 18, 28, 0.4);
   backdrop-filter: blur(12px);
@@ -94,7 +90,6 @@ ul {
   box-shadow: 0 10px 40px var(--accent-glow);
 }
 
-/* Text Gradients */
 .text-gradient {
   background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   -webkit-background-clip: text;
@@ -103,7 +98,6 @@ ul {
   color: transparent;
 }
 
-/* Premium Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -159,7 +153,6 @@ ul {
   box-shadow: 0 0 15px var(--accent-glow);
 }
 
-/* Layout Utilities */
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -171,7 +164,6 @@ ul {
   position: relative;
 }
 
-/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -187,7 +179,6 @@ ul {
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Floating background blobs */
 .bg-glow {
   position: absolute;
   border-radius: 50%;
